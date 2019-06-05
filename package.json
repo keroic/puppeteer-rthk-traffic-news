@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-rthk-traffic-news",
+  "version": "0.0.1",
+  "description": "Using Puppeteer to Retrieve RTHK Traffic News Website in JSON ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keroic/puppeteer-rthk-traffic-news.git"
+  },
+  "keywords": [
+    "Puppeteer"
+  ],
+  "author": "Keith Wan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keroic/puppeteer-rthk-traffic-news/issues"
+  },
+  "homepage": "https://github.com/keroic/puppeteer-rthk-traffic-news#readme",
+  "dependencies": {
+    "puppeteer": "^1.17.0"
+  }
+}
