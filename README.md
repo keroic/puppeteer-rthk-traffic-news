@@ -14,6 +14,12 @@ npm install
 node index.js
 ```
 
+## Format
+JSON Array
+Properties
+1. news - Traffic News Content
+2. date - Date in ISO String
+
 ## Change Logs
 
 1.0.0 (6 June 2019)
