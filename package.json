@@ -1,10 +1,11 @@
 {
   "name": "puppeteer-rthk-traffic-news",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Using Puppeteer to Retrieve RTHK Traffic News Website in JSON ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "homepage": "https://github.com/keroic/puppeteer-rthk-traffic-news#readme",
   "dependencies": {
     "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }

@@ -41,7 +41,7 @@ const RTHK_TRAFFIC_NEWS_URL = 'https://programme.rthk.hk/channel/radio/trafficne
                     dateString = dateString.replace('HKT', '');
                     let dateObj = new Date(dateString);
                     // Fix back to HKT Timezone
-                    dateObj.setTime(dateObj.getTime() + dateObj.getTimezoneOffset() * 60 * 1000 + HK_TIMEZONE);
+                    dateObj.setTime(dateObj.getTime() + (dateObj.getTimezoneOffset() * 60 * 1000) + HK_TIMEZONE);
                     dateString = dateObj.toISOString();
                 }
                 items.push({
